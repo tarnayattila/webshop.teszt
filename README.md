@@ -1,60 +1,146 @@
-Login / Registration Test Cases
-  Feature: User Login
+# 🧪 Webshop Manual QA Project
 
-  Test environment: Chrome / Windows / (https://www.saucedemo.com/)
- Test type: Manual testing
+## 📌 Project Overview
+This project contains manual testing documentation for a demo e-commerce webshop.  
+The focus is on validating core authentication features such as login and registration functionality.
 
-    Screenshotok:
-<img width="1800" height="1141" alt="Képernyőkép 2026-05-26 092322" src="https://github.com/user-attachments/assets/3236925f-bb0a-4b5a-9aab-5a886d7de10e" />
-<img width="1731" height="748" alt="Képernyőkép 2026-05-26 092251" src="https://github.com/user-attachments/assets/527d06ce-e3cd-4efc-bc1f-185525070acc" />
-<img width="1789" height="1132" alt="Képernyőkép 2026-05-26 092221" src="https://github.com/user-attachments/assets/4e31c759-315b-4595-ab9d-ab21bfd6b1f9" />
-<img width="1783" height="1134" alt="Képernyőkép 2026-05-26 092205" src="https://github.com/user-attachments/assets/89120695-423b-4128-b241-21eeb89b46f0" />
-<img width="1205" height="753" alt="Képernyőkép 2026-05-26 092152" src="https://github.com/user-attachments/assets/716d668e-7185-45bd-8929-7bf06e209be1" />
+The goal is to demonstrate understanding of:
+- Manual test case design
+- Positive and negative testing
+- Bug reporting structure
+- QA documentation standards
 
-  -Test Case 1: Successful login with valid credentials
+---
 
-Precondition:
-User is registered in the system.
+## 🌐 Test Environment
+- Browser: Google Chrome (latest)
+- OS: Windows 10 / Windows 11
+- Testing Type: Manual Testing
+- Application: Demo e-commerce webshop
 
-Test Steps:
+---
 
-Open login page
-Enter valid username
-Enter valid password
-Click on “Login” button
+# 🧪 Test Cases
 
-Expected Result:
-User is successfully logged in and redirected to the dashboard/home page.
+## 🔐 Login Functionality
 
-Actual Result:
-User is logged in successfully and redirected to the home page.
+### 📌 TC-01: Successful login with valid credentials
 
--Test Case 2: Login with invalid username
+**Preconditions:**
+User has a valid registered account.
 
-Test Steps:
+**Steps:**
+1. Open login page
+2. Enter valid username
+3. Enter valid password
+4. Click on "Login" button
 
-Open login page
-Enter invalid username
-Enter valid password
-Click on “Login” button
+**Expected Result:**
+User should be successfully logged in and redirected to the dashboard/homepage.
 
-Expected Result:
-Login fails and system displays an error message (e.g. “Invalid username or password”).
+**Actual Result:**
+User is successfully logged in and redirected to the homepage.
 
-Actual Result:
-Login is blocked and error message is displayed.
+---
 
--Test Case 3: Login with invalid password
+### TC-02: Login with invalid username ###
 
-Test Steps:
+**Steps:**
+1. Open login page
+2. Enter invalid username
+3. Enter valid password
+4. Click on "Login" button
 
-Open login page
-Enter valid username
-Enter invalid password
-Click on “Login” button
+**Expected Result:**
+Login should fail and an error message should be displayed:  
+"Invalid username or password"
 
-Expected Result:
-Login fails and error message is shown.
+**Actual Result:**
+Login is rejected and an error message is displayed.
 
-Actual Result:
-Login is rejected with proper error message.
+---
+
+### TC-03: Login with invalid password ###
+
+**Steps:**
+1. Open login page
+2. Enter valid username
+3. Enter invalid password
+4. Click on "Login" button
+
+**Expected Result:**
+Login should fail and show error message.
+
+**Actual Result:**
+Login is rejected with error message.
+
+---
+
+### TC-04: Login with empty password field ###
+
+**Steps:**
+1. Open login page
+2. Enter valid username
+3. Leave password field empty
+4. Click on "Login" button
+
+**Expected Result:**
+System should prevent login and show validation message:  
+"Password is required"
+
+**Actual Result:**
+System allows request and shows generic error message.
+
+---
+
+# Bug Reports
+
+The following bugs were identified during testing:
+
+- BR-001-login-failure
+- BR-002-empty-password
+- BR-003-invalid-username-feedback
+
+Bug details can be found in the `/bug-reports` folder.
+
+---
+
+# Testing Approach
+
+The following testing techniques were applied:
+- Positive testing (valid credentials)
+- Negative testing (invalid credentials)
+- Boundary / edge cases (empty fields)
+- UI validation checks
+
+---
+
+# Severity & Priority Guidelines
+
+**Severity levels:**
+- Critical → System crash / unusable feature
+- High → Major functionality broken
+- Medium → Partial functionality issue
+- Low → Minor UI issue
+
+**Priority levels:**
+- P1 → Immediate fix required
+- P2 → High priority fix
+- P3 → Normal priority
+- P4 → Low priority
+
+---
+
+# Summary
+
+This project demonstrates foundational QA skills including:
+- Manual test case design
+- Functional testing of authentication systems
+- Bug identification and documentation
+- Structured QA reporting suitable for Agile environments
+
+---
+
+# Author
+Attila Tarnay
+Junior QA / Manual Tester Portfolio Project

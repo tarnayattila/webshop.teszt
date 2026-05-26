@@ -1,0 +1,37 @@
+# 🐞 BR-002 - Login allows empty password field
+
+## 📍 Environment
+- Browser: Google Chrome (latest)
+- OS: Windows 11
+- Application: Demo e-commerce webshop
+
+---
+
+## 🧪 Steps to Reproduce
+1. Open login page
+2. Enter valid username
+3. Leave password field empty
+4. Click on "Login" button
+
+---
+
+## ❗ Actual Result
+System processes the request and returns a generic error message or no clear validation message.
+
+---
+
+## ✅ Expected Result
+System should prevent login attempt and display validation message: "Password is required".
+
+---
+
+## 📊 Severity
+Medium
+
+## 🎯 Priority
+P2
+
+---
+
+## 📝 Notes
+Missing proper frontend validation.

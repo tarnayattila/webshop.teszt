@@ -1,6 +1,6 @@
-# 🧪 Webshop Manual QA Project
+# Webshop Manual QA Project
 
-## 📌 Project Overview
+## Project Overview
 This project contains manual testing documentation for a demo e-commerce webshop.  
 The focus is on validating core authentication features such as login and registration functionality.
 
@@ -12,7 +12,7 @@ The goal is to demonstrate understanding of:
 
 ---
 
-## 🌐 Test Environment
+## Test Environment
 - Browser: Google Chrome (latest)
 - OS: Windows 10 / Windows 11
 - Testing Type: Manual Testing
@@ -20,11 +20,11 @@ The goal is to demonstrate understanding of:
 
 ---
 
-# 🧪 Test Cases
+# Test Cases
 
-## 🔐 Login Functionality
+## Login Functionality
 
-### 📌 TC-01: Successful login with valid credentials
+### TC-01: Successful login with valid credentials
 
 **Preconditions:**
 User has a valid registered account.

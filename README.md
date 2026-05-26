@@ -10,6 +10,13 @@ The goal is to demonstrate understanding of:
 - Bug reporting structure
 - QA documentation standards
 
+  SCREENSHOTS:
+  <img width="1789" height="1132" alt="Képernyőkép 2026-05-26 092221" src="https://github.com/user-attachments/assets/7e1ed016-cc58-4923-9b23-36949247e602" />
+<img width="1783" height="1134" alt="Képernyőkép 2026-05-26 092205" src="https://github.com/user-attachments/assets/8e3bcbb0-5180-449f-96a6-0eef3ca888e4" />
+<img width="1205" height="753" alt="Képernyőkép 2026-05-26 092152" src="https://github.com/user-attachments/assets/f592c413-4c82-4cd7-aa31-ff3fe3c0ceef" />
+<img width="1731" height="748" alt="Képernyőkép 2026-05-26 092251" src="https://github.com/user-attachments/assets/7993dc0e-29e1-4aa4-b061-71e4b721d0a0" />
+
+
 ---
 
 ## Test Environment

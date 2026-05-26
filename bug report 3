@@ -1,0 +1,37 @@
+# 🐞 BR-003 - No clear error message for invalid username
+
+## 📍 Environment
+- Browser: Firefox / Chrome
+- OS: Windows 10/11
+- Application: Demo e-commerce webshop
+
+---
+
+## 🧪 Steps to Reproduce
+1. Open login page
+2. Enter invalid username
+3. Enter any password
+4. Click on "Login" button
+
+---
+
+## ❗ Actual Result
+User receives a generic error or unclear feedback without specifying the issue.
+
+---
+
+## ✅ Expected Result
+System should display a clear error message: "Invalid username or password".
+
+---
+
+## 📊 Severity
+Medium
+
+## 🎯 Priority
+P2
+
+---
+
+## 📝 Notes
+Error handling should be consistent across login failures.

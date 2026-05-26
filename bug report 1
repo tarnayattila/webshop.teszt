@@ -1,0 +1,37 @@
+# 🐞 BR-001 - Login fails with valid credentials
+
+## 📍 Environment
+- Browser: Google Chrome (latest)
+- OS: Windows 10/11
+- Application: Demo e-commerce webshop
+
+---
+
+## 🧪 Steps to Reproduce
+1. Open login page
+2. Enter valid username
+3. Enter valid password
+4. Click on "Login" button
+
+---
+
+## ❗ Actual Result
+User is not logged in. System displays an error message: "Invalid credentials".
+
+---
+
+## ✅ Expected Result
+User should be successfully logged in and redirected to the dashboard/homepage.
+
+---
+
+## 📊 Severity
+High
+
+## 🎯 Priority
+P1
+
+---
+
+## 📝 Notes
+Issue is reproducible consistently.

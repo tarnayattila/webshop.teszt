@@ -1,4 +1,4 @@
-# Webshop Manual QA Project
+# Webshop Manual Tester Project
 
 ## Project Overview
 This project contains manual testing documentation for a demo e-commerce webshop.  
@@ -148,4 +148,4 @@ This project demonstrates foundational QA skills including:
 
 # Author
 Attila Tarnay
-Junior QA / Manual Tester Portfolio Project
+Junior Manual Tester Portfolio Project
